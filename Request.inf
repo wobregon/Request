@@ -1,0 +1,24 @@
+[Version]
+Signature="$Windows NT$"
+[NewRequest]
+Subject = "CN=app.tudominio.corp, OU=seguridad coorporativa,
+O=tuempresa, L=ciudad, ST=estado, C=pais"
+KeySpec = 1
+KeyLength = 2048
+Exportable = TRUE
+MachineKeySet = TRUE
+SMIME = False
+PrivateKeyArchive = FALSE
+UserProtected = FALSE
+UseExistingKeySet = FALSE
+ProviderName = "Microsoft RSA SChannel Cryptographic Provider"
+ProviderType = 12
+RequestType = PKCS10
+KeyUsage = 0xa0
+HashAlgorithm = SHA256
+[EnhancedKeyUsageExtension]
+OID=1.3.6.1.5.5.7.3.1
+[Extensions]
+2.5.29.17 = "{text}"
+_continue_ = "dns=app.tudominio.corp&"
+_continue_ = "dns=nombre2.tudominio.copr&"
